@@ -107,15 +107,6 @@ const AddBook = ({ id, setBookId }) => {
               />
             </InputGroup>
           </Form.Group>
-          <Form.Group className="mb-3" controlId="formBookTitle">
-            <InputGroup>
-              <InputGroup.Text id="formBookTitle">B</InputGroup.Text>
-              <Form.Control
-                type="file"
-                onChange={(e) => setBookImage(e.target.files)}
-              />
-            </InputGroup>
-          </Form.Group>
           <ButtonGroup aria-label="Basic example" className="mb-3">
             <Button
               disabled={flag}
@@ -138,11 +129,7 @@ const AddBook = ({ id, setBookId }) => {
               Not Available
             </Button>
           </ButtonGroup>
-          <div className="d-grid gap-2">
-            <Button variant="primary" onClick={handleUpload}>
-              Upload
-            </Button>
-          </div>
+
           <div className="d-grid gap-2">
             <Button variant="primary" type="Submit">
               Add/Update
