@@ -37,8 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "engines": {
+=======
+  },"engines": {
+>>>>>>> 4589160688b539fd73e20b9dc3df22d3ed73cc3a
     "node": "16.16.0"
   }
 }
